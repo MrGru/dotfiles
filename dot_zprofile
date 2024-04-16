@@ -1,0 +1,81 @@
+export PATH=$HOME/.rbenv/bin:$PATH
+eval "$(rbenv init -)"
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
+export ANDROID_ADB_SERVER_PORT=6799
+eval $(/opt/homebrew/bin/brew shellenv)
+eval "$(zoxide init zsh)"
+export JAVA_HOME=`/usr/libexec/java_home -v 17.0`
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export ANDROID_SDK=$HOME/Library/Android/sdk
+export ANDROID_NDK=$HOME/Library/Android/sdk/ndk/20.1.5948944
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export GOPATH=$HOME/go
+export PATH=$PATH:$(go env GOPATH)/bin
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+export PATH=$PATH:$HOME/development/flutter/bin
+export PATH=$PATH:$HOME/.pub-cache/bin
+export PATH="/Users/gru/.local/share/solana/install/active_release/bin:$PATH"
+
+##
+# Your previous /Users/gru/.zprofile file was backed up as /Users/gru/.zprofile.macports-saved_2021-05-11_at_04:14:28
+##
+
+# MacPorts Installer addition on 2021-05-11_at_04:14:28: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# MacPorts Installer addition on 2021-05-11_at_04:14:28: adding an appropriate MANPATH variable for use with MacPorts.
+export MANPATH="/opt/local/share/man:$MANPATH"
+# Finished adapting your MANPATH environment variable for use with MacPorts.
+
+
+# MacPorts Installer addition on 2021-05-11_at_04:14:28: adding an appropriate DISPLAY variable for use with MacPorts.
+export DISPLAY=:0
+# Finished adapting your DISPLAY environment variable for use with MacPorts.
+
+# alias
+alias k="kubectl"
+
+alias la='ls -aFi'
+alias ll='ls -lFhi'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias svm='sudo vim'
+alias df='df -h'
+alias grep="grep --color=auto"
+alias diff='git diff'
+alias cached='git diff --cached'
+alias p3='python3'
+alias p2='python'
+alias ran='npx react-native run-android'
+alias rind='xed -b ios'
+alias rin='npx react-native run-ios'
+alias cd='z'
+alias ls='exa'
+alias lg='lazygit'
+alias ld='lazydocker'
+# Use Neovim instead of Vim or Vi
+alias vim=nvim
+alias vi=nvim
+
+# zellij and helix
+alias zhx='zellij --layout $HOME/.config/zellij/layouts/helix.kdl'
+# Use Neovim as "prefered editor"
+export VISUAL=nvim
+
+export PATH="/Users/gru/.local/share/solana/install/active_release/bin:$PATH"
+
+
+# Added by Toolbox App
+export PATH="$PATH:/usr/local/bin"
+
+# ruby
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
+
