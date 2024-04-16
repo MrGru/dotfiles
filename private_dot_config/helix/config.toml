@@ -1,0 +1,25 @@
+theme = "base16_transparent"
+
+[editor]
+true-color = true
+line-number = "relative"
+rulers = [80]
+shell = ["zsh", "-c"]
+bufferline = "always"
+auto-save=true
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+max-indent-retain = 0
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.lsp]
+display-messages = true

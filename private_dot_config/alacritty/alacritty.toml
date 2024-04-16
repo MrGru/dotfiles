@@ -1,0 +1,43 @@
+import = [
+    "~/.config/alacritty/themes/themes/dracula.toml"
+]
+
+[cursor]
+style = "Beam"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "RobotoMono Nerd Font"
+style = "Medium"
+
+[font.bold]
+family = "RobotoMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "RobotoMono Nerd Font"
+style = "MediumItalic"
+
+[font.bold_italic]
+family = "RobotoMono Nerd Font"
+style = "BoldItalic"
+
+[window]
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 1.0 
+option_as_alt = "both"
+
+[window.padding]
+x = 6
+y = 0
+
+[window.dimensions]
+columns = 150 
+lines = 40 
+
+[scrolling]
+history = 10000
+multiplier = 3
