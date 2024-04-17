@@ -113,4 +113,9 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export PATH=/usr/local/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
 export GEM_HOME="$HOME/.gem"
+eval "$(rbenv init -)"
+export RBENV_ROOT=$HOME/.rbenv
+export PATH=$RBENV_ROOT/shims:/versions:$PATH

@@ -9,7 +9,7 @@
 	email = duan.hitex@gmail.com
 
 [core]
-  excludesfile = /Users/gru/.gitignore_global
+  excludesfile = $HOME/.gitignore_global
   pager = delta
 
 [difftool "sourcetree"]
@@ -21,7 +21,7 @@
 	trustExitCode = true
 
 [commit]
-	template = /Users/gru/.stCommitMsg
+	template = $HOME/.stCommitMsg
 
 [interactive]
   diffFilter = delta --color-only
