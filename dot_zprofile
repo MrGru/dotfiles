@@ -1,10 +1,6 @@
-export PATH=$HOME/.rbenv/bin:$PATH
-eval "$(rbenv init -)"
-export GEM_HOME=$HOME/.gem
-export PATH=$GEM_HOME/bin:$PATH
 eval $(/opt/homebrew/bin/brew shellenv)
 eval "$(zoxide init zsh)"
-export JAVA_HOME=`/usr/libexec/java_home -v 17.0`
+export JAVA_HOME=/usr/libexec/java_home
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export ANDROID_NDK=$HOME/Library/Android/sdk/ndk/20.1.5948944
@@ -42,7 +38,7 @@ alias ran='npx react-native run-android'
 alias rind='xed -b ios'
 alias rin='npx react-native run-ios'
 alias cd='z'
-alias ls='exa'
+alias ls='lsd'
 alias lg='lazygit'
 alias ld='lazydocker'
 # Use Neovim instead of Vim or Vi
