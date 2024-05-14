@@ -1,6 +1,6 @@
 eval $(/opt/homebrew/bin/brew shellenv)
 eval "$(zoxide init zsh)"
-export JAVA_HOME=/usr/libexec/java_home
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export ANDROID_NDK=$HOME/Library/Android/sdk/ndk/20.1.5948944
